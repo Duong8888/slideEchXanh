@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ÁNH DƯƠNG</title>
+    <link rel="shortcut icon" href="img/logo-2.png" type="image/x-icon">
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div id="wapper">
+        <div id="slide" onclick="kiemTra()">
+            <div class="icon"><i onclick="dong()" class='bx bx-x'></i></div>
+            <div class="back"><i onclick="back()" class='bx bx-chevron-left'></i></div>
+            <div class="main">
+                <img id="slide-show" src="" alt="">
+                <div class="btn">
+                    <div class="chek" onclick="mo1(this),mo2()" index="1"></div>
+                    <div class="chek" onclick="mo1(this),mo2()" index="2"></div>
+                    <div class="chek" onclick="mo1(this),mo2()" index="3"></div>
+                    <div class="chek" onclick="mo1(this),mo2()" index="4"></div>
+                    <div class="chek" onclick="mo1(this),mo2()" index="5"></div>
+                    <div class="chek" onclick="mo1(this),mo2()" index="6"></div>
+                    <div class="chek" onclick="mo1(this),mo2()" index="7"></div>
+                    <div class="chek" onclick="mo1(this),mo2()" index="8"></div>
+                </div>
+            </div>
+            <div class="next"><i onclick="next()" class='bx bx-chevron-right'></i></div>
+        </div>
+        <div class="top">
+
+            <div class="box">
+                <img onclick="mo(this),kiemTra()" src="img/1.jpg" alt="">
+            </div>
+
+            <div class="box">
+                <img onclick="mo(this),kiemTra()" src="img/2.jpg" alt="">
+            </div>
+
+            <div class="box">
+                <img onclick="mo(this),kiemTra()" src="img/3.jpg" alt="">
+            </div>
+
+            <div class="box">
+                <img onclick="mo(this),kiemTra()" src="img/4.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="bottom">
+
+            <div class="box">
+                <img onclick="mo(this),kiemTra()" src="img/5.jpg" alt="">
+            </div>
+
+            <div class="box">
+                <img onclick="mo(this),kiemTra()" src="img/6.jpg" alt="">
+            </div>
+
+            <div class="box">
+                <img onclick="mo(this),kiemTra()" src="img/7.jpg" alt="">
+            </div>
+
+            <div class="box">
+                <img onclick="mo(this),kiemTra()" src="img/8.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
