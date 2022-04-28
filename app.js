@@ -25,7 +25,6 @@ function next() {
     }
     document.getElementById('slide-show').src = 'img/' + index + '.jpg'
     mo2();
-    kiemTra();
 }
 
 function back() {
@@ -42,7 +41,6 @@ function back() {
 function dong() {
     document.getElementById('slide').style.zIndex = '-1'
     document.querySelector('.main').style.transform = 'scale(0.1)'
-    clearInterval(t);
 }
 var t;
 function mo(img) {
@@ -51,7 +49,6 @@ function mo(img) {
     document.querySelector('.main').style.transform = 'scale(1)'
     index = document.getElementById('slide-show').getAttribute('src').substring(31, 32);
     mo2();
-    t = setInterval(next,5000)
 }
 
 function mo1(indexImg){
